@@ -15,8 +15,8 @@ const App = () => {
 
       {/* Rutas */}
       <Routes>
-        <Route path="/clientes" element={<ClientesView />} />
-        <Route path='/' element={<Navigate to='/clientes'/>}></Route>
+        <Route path="/" element={<ClientesView />} />
+        
       </Routes>
     </Router>
   );
